@@ -1,0 +1,18 @@
+body {
+    background-color: var(--bg-color-dark);
+}
+
+.page__header > .icon {
+    flex: 4;
+}
+
+.page__header > .table__nav {
+    flex: 6;
+}
+
+.page__header > .table__nav > .nav {
+    position: relative;
+    left: 9px;
+}
+
+/* ========================================== */

@@ -1,0 +1,234 @@
+@font-face {
+    font-family: 'Noyh Geometric Extra';
+    src: url('NoyhGeometric-ExtLtIta.eot');
+    src: local('Noyh Geometric Extra Light Italic'), local('NoyhGeometric-ExtLtIta'),
+        url('NoyhGeometric-ExtLtIta.eot?#iefix') format('embedded-opentype'),
+        url('NoyhGeometric-ExtLtIta.woff2') format('woff2'),
+        url('NoyhGeometric-ExtLtIta.woff') format('woff'),
+        url('NoyhGeometric-ExtLtIta.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Noyh Geometric';
+    src: url('NoyhGeometric-BoldItalic.eot');
+    src: local('Noyh Geometric Bold Italic'), local('NoyhGeometric-BoldItalic'),
+        url('NoyhGeometric-BoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('NoyhGeometric-BoldItalic.woff2') format('woff2'),
+        url('NoyhGeometric-BoldItalic.woff') format('woff'),
+        url('NoyhGeometric-BoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Noyh Geometric';
+    src: url('NoyhGeometric-Bold.eot');
+    src: local('Noyh Geometric Bold'), local('NoyhGeometric-Bold'),
+        url('NoyhGeometric-Bold.eot?#iefix') format('embedded-opentype'),
+        url('NoyhGeometric-Bold.woff2') format('woff2'),
+        url('NoyhGeometric-Bold.woff') format('woff'),
+        url('NoyhGeometric-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Noyh Geometric Extra';
+    src: url('NoyhGeometric-ExtraLight.eot');
+    src: local('Noyh Geometric Extra Light'), local('NoyhGeometric-ExtraLight'),
+        url('NoyhGeometric-ExtraLight.eot?#iefix') format('embedded-opentype'),
+        url('NoyhGeometric-ExtraLight.woff2') format('woff2'),
+        url('NoyhGeometric-ExtraLight.woff') format('woff'),
+        url('NoyhGeometric-ExtraLight.ttf') format('truetype');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Noyh Geometric';
+    src: url('NoyhGeometric-BlackItalic.eot');
+    src: local('Noyh Geometric Black Italic'), local('NoyhGeometric-BlackItalic'),
+        url('NoyhGeometric-BlackItalic.eot?#iefix') format('embedded-opentype'),
+        url('NoyhGeometric-BlackItalic.woff2') format('woff2'),
+        url('NoyhGeometric-BlackItalic.woff') format('woff'),
+        url('NoyhGeometric-BlackItalic.ttf') format('truetype');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Noyh Geometric';
+    src: url('NoyhGeometric-Black.eot');
+    src: local('Noyh Geometric Black'), local('NoyhGeometric-Black'),
+        url('NoyhGeometric-Black.eot?#iefix') format('embedded-opentype'),
+        url('NoyhGeometric-Black.woff2') format('woff2'),
+        url('NoyhGeometric-Black.woff') format('woff'),
+        url('NoyhGeometric-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Noyh Geometric';
+    src: url('NoyhGeometric-MediumItalic.eot');
+    src: local('Noyh Geometric Medium Italic'), local('NoyhGeometric-MediumItalic'),
+        url('NoyhGeometric-MediumItalic.eot?#iefix') format('embedded-opentype'),
+        url('NoyhGeometric-MediumItalic.woff2') format('woff2'),
+        url('NoyhGeometric-MediumItalic.woff') format('woff'),
+        url('NoyhGeometric-MediumItalic.ttf') format('truetype');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Noyh Geometric';
+    src: url('NoyhGeometric-Italic.eot');
+    src: local('Noyh Geometric Italic'), local('NoyhGeometric-Italic'),
+        url('NoyhGeometric-Italic.eot?#iefix') format('embedded-opentype'),
+        url('NoyhGeometric-Italic.woff2') format('woff2'),
+        url('NoyhGeometric-Italic.woff') format('woff'),
+        url('NoyhGeometric-Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Noyh Geometric';
+    src: url('NoyhGeometric-ThinItalic.eot');
+    src: local('Noyh Geometric Thin Italic'), local('NoyhGeometric-ThinItalic'),
+        url('NoyhGeometric-ThinItalic.eot?#iefix') format('embedded-opentype'),
+        url('NoyhGeometric-ThinItalic.woff2') format('woff2'),
+        url('NoyhGeometric-ThinItalic.woff') format('woff'),
+        url('NoyhGeometric-ThinItalic.ttf') format('truetype');
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Noyh Geometric';
+    src: url('NoyhGeometric-Medium.eot');
+    src: local('Noyh Geometric Medium'), local('NoyhGeometric-Medium'),
+        url('NoyhGeometric-Medium.eot?#iefix') format('embedded-opentype'),
+        url('NoyhGeometric-Medium.woff2') format('woff2'),
+        url('NoyhGeometric-Medium.woff') format('woff'),
+        url('NoyhGeometric-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Noyh Geometric';
+    src: url('NoyhGeometric-Light.eot');
+    src: local('Noyh Geometric Light'), local('NoyhGeometric-Light'),
+        url('NoyhGeometric-Light.eot?#iefix') format('embedded-opentype'),
+        url('NoyhGeometric-Light.woff2') format('woff2'),
+        url('NoyhGeometric-Light.woff') format('woff'),
+        url('NoyhGeometric-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Noyh Geometric';
+    src: url('NoyhGeometric-Regular.eot');
+    src: local('Noyh Geometric'), local('NoyhGeometric-Regular'),
+        url('NoyhGeometric-Regular.eot?#iefix') format('embedded-opentype'),
+        url('NoyhGeometric-Regular.woff2') format('woff2'),
+        url('NoyhGeometric-Regular.woff') format('woff'),
+        url('NoyhGeometric-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Noyh Geometric';
+    src: url('NoyhGeometric-LightItalic.eot');
+    src: local('Noyh Geometric Light Italic'), local('NoyhGeometric-LightItalic'),
+        url('NoyhGeometric-LightItalic.eot?#iefix') format('embedded-opentype'),
+        url('NoyhGeometric-LightItalic.woff2') format('woff2'),
+        url('NoyhGeometric-LightItalic.woff') format('woff'),
+        url('NoyhGeometric-LightItalic.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Noyh Geometric';
+    src: url('NoyhGeometric-Thin.eot');
+    src: local('Noyh Geometric Thin'), local('NoyhGeometric-Thin'),
+        url('NoyhGeometric-Thin.eot?#iefix') format('embedded-opentype'),
+        url('NoyhGeometric-Thin.woff2') format('woff2'),
+        url('NoyhGeometric-Thin.woff') format('woff'),
+        url('NoyhGeometric-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Noyh Geometric';
+    src: url('NoyhGeometric-HeavyItalic.eot');
+    src: local('Noyh Geometric Heavy Italic'), local('NoyhGeometric-HeavyItalic'),
+        url('NoyhGeometric-HeavyItalic.eot?#iefix') format('embedded-opentype'),
+        url('NoyhGeometric-HeavyItalic.woff2') format('woff2'),
+        url('NoyhGeometric-HeavyItalic.woff') format('woff'),
+        url('NoyhGeometric-HeavyItalic.ttf') format('truetype');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Noyh Geometric';
+    src: url('NoyhGeometric-Heavy.eot');
+    src: local('Noyh Geometric Heavy'), local('NoyhGeometric-Heavy'),
+        url('NoyhGeometric-Heavy.eot?#iefix') format('embedded-opentype'),
+        url('NoyhGeometric-Heavy.woff2') format('woff2'),
+        url('NoyhGeometric-Heavy.woff') format('woff'),
+        url('NoyhGeometric-Heavy.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Noyh Geometric SemiLight';
+    src: url('NoyhGeometric-SemiLightItalic.eot');
+    src: local('Noyh Geometric SemiLight Italic'), local('NoyhGeometric-SemiLightItalic'),
+        url('NoyhGeometric-SemiLightItalic.eot?#iefix') format('embedded-opentype'),
+        url('NoyhGeometric-SemiLightItalic.woff2') format('woff2'),
+        url('NoyhGeometric-SemiLightItalic.woff') format('woff'),
+        url('NoyhGeometric-SemiLightItalic.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Noyh Geometric Semi';
+    src: url('NoyhGeometric-SemiLight.eot');
+    src: local('Noyh Geometric Semi Light'), local('NoyhGeometric-SemiLight'),
+        url('NoyhGeometric-SemiLight.eot?#iefix') format('embedded-opentype'),
+        url('NoyhGeometric-SemiLight.woff2') format('woff2'),
+        url('NoyhGeometric-SemiLight.woff') format('woff'),
+        url('NoyhGeometric-SemiLight.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
