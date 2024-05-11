@@ -1,0 +1,34 @@
+@media screen and (min-width: 1025px) {
+    /* .container {
+        flex-direction: row;
+    } */
+
+    /* .container > section {
+        flex: 4;
+    } */
+    
+    /* .container > aside {
+        flex: 6;
+    } */
+
+    #line {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1025px) {
+    .page__header > .table__nav > .nav {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+    }
+
+    .page__header > .table__nav {
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .page__header > .table__nav > .toggle-button {
+        margin-top: .5rem;
+    }
+}

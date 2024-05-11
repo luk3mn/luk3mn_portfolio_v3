@@ -16,3 +16,138 @@ body {
 }
 
 /* ========================================== */
+.container > header {
+    border: 1px solid red;
+}
+
+.container > section {
+    border: 1px solid red;
+    padding: 1rem;
+}
+
+section > .section__header {
+    border: 3px solid rgb(234, 0, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Intro__svg {
+    position: absolute;
+    /* position: relative; */
+    height: 200px;
+    top: -138px;
+    /* left: 19%; */
+    left: -181px;
+    z-index: -1;
+    margin-top: 90px;
+}
+
+.Intro {
+    position: relative;
+    background-color: var(--bg-color-dark);
+    color: var(--slight-white-color);
+    border: solid 3px var(--slight-white-color);
+    background-color: var(--color-sherbet-fade);
+    box-shadow: .5rem .5rem 0 0 var(--slight-white-color);
+    padding-left: 1rem;
+    padding-right: 1rem;
+    /* max-width: 80vw; */
+    width: 100%;
+    max-width: 700px;
+    margin: 0 auto;
+    /* left: -100px; */
+    top: 80px;
+}
+
+.Intro::before {
+    pointer-events: none;
+    content: "";
+    position: absolute;
+    width: 18vw;
+    height: 18vw;
+    min-width: 150px;
+    min-height: 150px;
+    right: -6%;
+    bottom: -15%;
+    border-radius: 100%;
+    border: solid 3px var(--slight-white-color);
+    z-index: -1;
+}
+
+::after, ::before {
+    box-sizing: inherit;
+    top: 30px;
+}
+
+.Intro::after {
+    pointer-events: none;
+    content: "";
+    position: absolute;
+    width: 18vw;
+    height: 18vw;
+    min-width: 150px;
+    min-height: 150px;
+    right: -10%;
+    bottom: -12%;
+    border-radius: 100%;
+    background-color: var(--color-mint);
+    z-index: -2;
+}
+
+
+/* section > .section__header > .Intro {
+    border: 3px solid var(--slight-white-color);
+    box-shadow: 10px 10px var(--slight-white-color);
+    padding: 2rem;
+    width: 100%;
+    max-width: 700px;
+    font-size: 1.3rem;
+    color: var(--slight-white-color);
+    background-color: var(--bg-color-dark);
+} */
+
+section > .section__header h1 {
+    margin-bottom: 1rem;
+}
+
+/* /*.container > section > .section__header {
+    border: 1px solid red;
+    padding: 1rem;
+    overflow: hidden;
+} */
+
+/* .container > section > .section__header > div {
+    border: 1px solid red;
+    background-image: url("../img/bg_page.png");
+    background-repeat: no-repeat;
+    height: 860px;
+
+    position: relative;
+    top: -150px;
+} */
+
+/* .container > section .section__body {
+    border: 1px solid red;
+} */
+
+/* ============================== */
+
+* {
+    scrollbar-width: auto;
+    scrollbar-color: var(--color-mint) var(--color-sherbet-fade);
+}
+
+::-webkit-scrollbar {
+    width: 11px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: var(--color-mint);
+    border-radius: 6px;
+    border: 0;
+}
+
+::-webkit-scrollbar-track {
+    background: var(--color-sherbet-fade);
+}
