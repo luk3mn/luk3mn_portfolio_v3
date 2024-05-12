@@ -17,19 +17,31 @@ body {
 
 /* ========================================== */
 .container > header {
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 
 .container > section {
-    border: 1px solid red;
+    /* display: flex;
+    flex-direction: column; */
+
+    /* border: 1px solid red; */
     padding: 1rem;
+    height: 100%;
 }
 
+/* ========================== */
+/* ===== SECTION HEADER ===== */
+/* ========================== */
 section > .section__header {
+    /* flex: 4; */
     border: 3px solid rgb(234, 0, 255);
     display: flex;
-    align-items: center;
     justify-content: center;
+    margin: 0 .6rem;
+    /* overflow: hidden; */
+    /* padding-bottom: 9rem; */
+    margin-top: 2rem;
+    /* height: 500px; */
 }
 
 .Intro__svg {
@@ -37,8 +49,7 @@ section > .section__header {
     /* position: relative; */
     height: 200px;
     top: -138px;
-    /* left: 19%; */
-    left: -181px;
+    left: -9%;
     z-index: -1;
     margin-top: 90px;
 }
@@ -48,24 +59,27 @@ section > .section__header {
     background-color: var(--bg-color-dark);
     color: var(--slight-white-color);
     border: solid 3px var(--slight-white-color);
-    background-color: var(--color-sherbet-fade);
+    background-color: var(--bg-color-dark);
     box-shadow: .5rem .5rem 0 0 var(--slight-white-color);
-    padding-left: 1rem;
-    padding-right: 1rem;
+    /* padding-left: 1rem;
+    padding-right: 1rem; */
+    padding: 1.5rem .9rem;
     /* max-width: 80vw; */
     width: 100%;
     max-width: 700px;
-    margin: 0 auto;
+    /* height: 340px; */
+    /* margin: 0 auto; */
     /* left: -100px; */
-    top: 80px;
+    /* top: 80px; */
+    /* margin: 0 2rem; */
 }
 
 .Intro::before {
     pointer-events: none;
     content: "";
     position: absolute;
-    width: 18vw;
-    height: 18vw;
+    width: 13vw;
+    height: 13vw;
     min-width: 150px;
     min-height: 150px;
     right: -6%;
@@ -77,15 +91,16 @@ section > .section__header {
 
 ::after, ::before {
     box-sizing: inherit;
-    top: 30px;
+    /* top: 180px; */
+    top: 75%;
 }
 
 .Intro::after {
     pointer-events: none;
     content: "";
     position: absolute;
-    width: 18vw;
-    height: 18vw;
+    width: 13vw;
+    height: 13vw;
     min-width: 150px;
     min-height: 150px;
     right: -10%;
@@ -95,41 +110,37 @@ section > .section__header {
     z-index: -2;
 }
 
+section .Intro .h3 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    background-color: var(--color-mint);   
+    /* box-shadow: .5rem .5rem 0 0 var(--color-mint); */
+    width: 80px;
+    height: 30px;
+    margin-bottom: 2.3rem;
 
-/* section > .section__header > .Intro {
-    border: 3px solid var(--slight-white-color);
-    box-shadow: 10px 10px var(--slight-white-color);
-    padding: 2rem;
-    width: 100%;
-    max-width: 700px;
-    font-size: 1.3rem;
-    color: var(--slight-white-color);
-    background-color: var(--bg-color-dark);
-} */
-
-section > .section__header h1 {
-    margin-bottom: 1rem;
 }
 
-/* /*.container > section > .section__header {
-    border: 1px solid red;
-    padding: 1rem;
-    overflow: hidden;
-} */
+section .Intro .h6 p {
+    margin-top: 1rem;
+    font-weight: 400;
+    /* font-size: 1rem; */
+}
 
-/* .container > section > .section__header > div {
-    border: 1px solid red;
-    background-image: url("../img/bg_page.png");
-    background-repeat: no-repeat;
-    height: 860px;
+/* ======================== */
+/* ===== SECTION BODY ===== */
+/* ======================== */
 
-    position: relative;
-    top: -150px;
-} */
-
-/* .container > section .section__body {
+section > .section__body {
+    /* flex: 1; */
     border: 1px solid red;
-} */
+    /* margin-bottom: 1rem; */
+    margin-top: 8rem;
+}
+
+
+/* TRANSFORM LATER IN COMPONENT */
+
 
 /* ============================== */
 
