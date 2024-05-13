@@ -23,6 +23,7 @@ html {
     --icon-style: hsl(256, 40%, 76%, 1);
     --color-sherbet: hsl(257, 8%, 18%);
     --color-sherbet-fade: hsl(260, 24%, 18%);
+    --color-underline: hsl(0, 0%, 39%);
 }
 
 body {

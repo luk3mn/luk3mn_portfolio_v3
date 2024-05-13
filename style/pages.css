@@ -1,5 +1,6 @@
 body {
     background-color: var(--bg-color-dark);
+    border: 1px solid red;
 }
 
 .page__header > .icon {
@@ -27,6 +28,8 @@ body {
     /* border: 1px solid red; */
     padding: 1rem;
     height: 100%;
+    border: 1px solid rgb(255, 191, 72);
+
 }
 
 /* ========================== */
@@ -37,7 +40,7 @@ section > .section__header {
     border: 3px solid rgb(234, 0, 255);
     display: flex;
     justify-content: center;
-    margin: 0 .6rem;
+    /* margin: 0 .6rem; */
     /* overflow: hidden; */
     /* padding-bottom: 9rem; */
     margin-top: 2rem;
@@ -133,13 +136,102 @@ section .Intro .h6 p {
 
 section > .section__body {
     /* flex: 1; */
-    border: 1px solid red;
+    border: 1px solid rgb(255, 255, 255);
     /* margin-bottom: 1rem; */
-    margin-top: 8rem;
+    /* margin-top: 8rem; */
+    margin: 0 4rem;
+    margin-top: 6rem;
+    /* padding-bottom: 3rem;       */
+    /* margin: 3rem 5rem 3rem 5rem;      */
 }
 
+section > .section__body > .h4 {
+    font-size: 2rem;
+    color: var(--slight-white-color);
+}
+
+.code__list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+    /* border: 1px solid red; */
+    color: var(--slight-white-color);
+    list-style: none;
+    font-size: 1.1rem;
+}
 
 /* TRANSFORM LATER IN COMPONENT */
+.card__list {
+    margin: 0 .3rem;
+    margin-bottom: 4rem;
+    max-width: 300px;
+    border: 1px solid red;
+}
+
+.card__list > .code__image {
+    overflow: hidden;
+    border-radius: .5rem;
+    width: 100%;
+    border: 1px solid red;
+
+}
+
+.card__list > .code__image > img { /*FIX IMAGE OVERFLOW*/
+    /* width: 100%; */
+    width: 250px;
+    border: 1px solid red;
+}
+
+.card__list > .stack__list > img {
+    height: 25px;
+}
+
+.card__list > .timeline {
+    display: flex;
+    align-items: center;
+    
+    width: 100%;
+
+}
+
+.card__list > .timeline > .underline {
+    flex: 1;
+    border: 1px solid var(--color-underline);
+}
+
+.card__list time {
+    margin-right: .5rem;
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+.card__list > .h5 {
+    font-size: 1.6rem;
+    font-weight: 700;
+    margin: 1rem 0;
+}
+
+.card__list > footer {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card__list > footer > .hr {
+    flex: 1;
+    border: 1px solid var(--color-underline);
+    margin: 0 .3rem;
+}
+
+.card__list > footer > .read__more {
+    display: flex;
+    align-items: center;
+}
+.card__list > footer > .read__more > i {
+    margin-left: .4rem;
+}
 
 
 /* ============================== */
