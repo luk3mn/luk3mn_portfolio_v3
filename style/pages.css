@@ -1,7 +1,17 @@
 body {
     background-color: var(--bg-color-dark);
-    border: 1px solid red;
 }
+
+.h3, .h1 {
+    font-size: var(--step-2);
+    line-height: 1.2;
+}
+
+.h6, .h4 {
+    font-size: var(--step-1);
+    letter-spacing: .02em;
+    line-height: 1.3;
+  }
 
 .page__header > .icon {
     flex: 4;
@@ -28,7 +38,6 @@ body {
     /* border: 1px solid red; */
     padding: 1rem;
     height: 100%;
-    border: 1px solid rgb(255, 191, 72);
 
 }
 
@@ -37,22 +46,17 @@ body {
 /* ========================== */
 section > .section__header {
     /* flex: 4; */
-    border: 3px solid rgb(234, 0, 255);
+    /* border: 3px solid rgb(234, 0, 255); */
     display: flex;
     justify-content: center;
-    /* margin: 0 .6rem; */
-    /* overflow: hidden; */
-    /* padding-bottom: 9rem; */
     margin-top: 2rem;
-    /* height: 500px; */
 }
 
 .Intro__svg {
     position: absolute;
-    /* position: relative; */
-    height: 200px;
-    top: -138px;
-    left: -9%;
+    height: 240px;
+    top: -145px;
+    left: -17%;
     z-index: -1;
     margin-top: 90px;
 }
@@ -64,17 +68,9 @@ section > .section__header {
     border: solid 3px var(--slight-white-color);
     background-color: var(--bg-color-dark);
     box-shadow: .5rem .5rem 0 0 var(--slight-white-color);
-    /* padding-left: 1rem;
-    padding-right: 1rem; */
-    padding: 1.5rem .9rem;
-    /* max-width: 80vw; */
+    padding: 4.5rem 3rem;
     width: 100%;
-    max-width: 700px;
-    /* height: 340px; */
-    /* margin: 0 auto; */
-    /* left: -100px; */
-    /* top: 80px; */
-    /* margin: 0 2rem; */
+    max-width: 750px;
 }
 
 .Intro::before {
@@ -85,7 +81,7 @@ section > .section__header {
     height: 13vw;
     min-width: 150px;
     min-height: 150px;
-    right: -6%;
+    right: -9%;
     bottom: -15%;
     border-radius: 100%;
     border: solid 3px var(--slight-white-color);
@@ -106,7 +102,7 @@ section > .section__header {
     height: 13vw;
     min-width: 150px;
     min-height: 150px;
-    right: -10%;
+    right: -13%;
     bottom: -12%;
     border-radius: 100%;
     background-color: var(--color-mint);
@@ -114,7 +110,8 @@ section > .section__header {
 }
 
 section .Intro .h3 {
-    font-size: 2.5rem;
+    /* font-size: 3.4rem; */
+    font-size: var(--step-2);
     font-weight: 700;
     background-color: var(--color-mint);   
     /* box-shadow: .5rem .5rem 0 0 var(--color-mint); */
@@ -127,7 +124,7 @@ section .Intro .h3 {
 section .Intro .h6 p {
     margin-top: 1rem;
     font-weight: 400;
-    /* font-size: 1rem; */
+    /* font-size: var(--step-1); */
 }
 
 /* ======================== */
@@ -136,18 +133,16 @@ section .Intro .h6 p {
 
 section > .section__body {
     /* flex: 1; */
-    border: 1px solid rgb(255, 255, 255);
-    /* margin-bottom: 1rem; */
-    /* margin-top: 8rem; */
-    margin: 0 4rem;
-    margin-top: 6rem;
-    /* padding-bottom: 3rem;       */
-    /* margin: 3rem 5rem 3rem 5rem;      */
+    /* border: 1px solid rgb(255, 255, 255); */
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 9rem;
 }
 
 section > .section__body > .h4 {
-    font-size: 2rem;
+    font-size: 2.7rem;
     color: var(--slight-white-color);
+    margin-bottom: 1rem;
 }
 
 .code__list {
@@ -155,7 +150,7 @@ section > .section__body > .h4 {
     flex-wrap: wrap;
     justify-content: space-around;
 
-    /* border: 1px solid red; */
+    /* border: 1px solid rgb(234, 0, 255); */
     color: var(--slight-white-color);
     list-style: none;
     font-size: 1.1rem;
@@ -163,24 +158,24 @@ section > .section__body > .h4 {
 
 /* TRANSFORM LATER IN COMPONENT */
 .card__list {
-    margin: 0 .3rem;
+    margin: 0 1rem;
     margin-bottom: 4rem;
-    max-width: 300px;
-    border: 1px solid red;
+    width: 100%;
+    max-width: 400px;
+    /* border: 1px solid red; */
 }
 
 .card__list > .code__image {
     overflow: hidden;
     border-radius: .5rem;
     width: 100%;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 
 }
 
-.card__list > .code__image > img { /*FIX IMAGE OVERFLOW*/
-    /* width: 100%; */
-    width: 250px;
-    border: 1px solid red;
+.card__list > .code__image > img {
+    width: 100%;
+    /* border: 1px solid red; */
 }
 
 .card__list > .stack__list > img {

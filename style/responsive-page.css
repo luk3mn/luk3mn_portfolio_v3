@@ -15,8 +15,18 @@
         display: none;
     }
 
+    section > .section__header {
+        padding: 6.3rem 0;
+    }
+
     .page__header > .table__nav > .toggle-button {
         margin-left: 1.4rem;
+    }
+
+    ::after, ::before {
+        box-sizing: inherit;
+        /* top: 180px; */
+        top: 55%;
     }
 }
 
