@@ -134,8 +134,9 @@ section .Intro .h6 p {
 section > .section__body {
     /* flex: 1; */
     /* border: 1px solid rgb(255, 255, 255); */
+    /* width: 100%; */
     margin-left: 5%;
-    margin-right: 5%;
+    margin-right: 2%;
     margin-top: 9rem;
 }
 
@@ -145,7 +146,7 @@ section > .section__body > .h4 {
     margin-bottom: 1rem;
 }
 
-.code__list {
+.component__list {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -154,81 +155,101 @@ section > .section__body > .h4 {
     color: var(--slight-white-color);
     list-style: none;
     font-size: 1.1rem;
+    margin-bottom: 3rem;
 }
 
-/* TRANSFORM LATER IN COMPONENT */
-.card__list {
-    margin: 0 1rem;
-    margin-bottom: 4rem;
-    width: 100%;
-    max-width: 400px;
-    /* border: 1px solid red; */
-}
-
-.card__list > .code__image {
-    overflow: hidden;
-    border-radius: .5rem;
-    width: 100%;
-    /* border: 1px solid red; */
-
-}
-
-.card__list > .code__image > img {
-    width: 100%;
-    /* border: 1px solid red; */
-}
-
-.card__list > .stack__list > img {
-    height: 25px;
-}
-
-.card__list > .timeline {
+/* COMPONENT */
+/* .component__list > div {
     display: flex;
+    flex-direction: column;
     align-items: center;
-    
     width: 100%;
-
+    border: 1px solid red;
 }
 
-.card__list > .timeline > .underline {
-    flex: 1;
-    border: 1px solid var(--color-underline);
-}
+.component__list > div > .skill__view {
+    border: 1px solid rgb(240, 52, 230);
+    width: 100%;
+    max-width: 600px;
+} */
 
-.card__list time {
-    margin-right: .5rem;
-    font-weight: 600;
-    font-size: 1rem;
-}
-
-.card__list > .h5 {
-    font-size: 1.6rem;
-    font-weight: 700;
-    margin: 1rem 0;
-}
-
-.card__list > footer {
-    margin-top: 1rem;
+.learning__item {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    
+    border: .15rem solid var(--slight-white-color);
+    box-shadow: .4rem .4rem var(--slight-white-color);
+    background-color: var(--color-mint);
+    list-style: none;
+    margin: 1.3rem;
+    padding: 1rem;
+    width: 100%;
+    max-width: 500px;
+    
+    font-size: var(--step-1);
+    color: var(--slight-white-color);
 }
 
-.card__list > footer > .hr {
-    flex: 1;
-    border: 1px solid var(--color-underline);
-    margin: 0 .3rem;
-}
-
-.card__list > footer > .read__more {
+.learning__item > div {
     display: flex;
     align-items: center;
 }
-.card__list > footer > .read__more > i {
-    margin-left: .4rem;
+
+.learning__item > div > i {
+    margin: 0 .4rem;
 }
 
+.learning__item > i {
+    cursor: pointer;
+    font-size: var(--step-1);
+}
 
+.learning__item .skill__model {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+    background-color: rgba(0,0,0,0.9);
+    /* bottom: 0; */
+    /* width: 100%; */
+    /* border: 1px solid red; */
+    /* display: none; */
+}
+
+.learning__item .skill__model > div {
+    /* width: 100%; */
+    max-width: 800px;
+    width: 100%;
+    padding: 1rem;
+    border: .15rem solid var(--slight-white-color);
+    box-shadow: .4rem .4rem var(--slight-white-color);
+    background-color: var(--color-sherbet-fade);
+}
+
+.learning__item .skill__model > div > i {
+    float: right;
+    cursor: pointer;
+}
+
+.learning__item .skill__model p {
+    /* border: 1px solid red; */
+    /* margin: auto; */
+    margin-top: 2rem;
+    text-align: justify;
+}
+
+.hidden {
+    /* display: none; */
+    background-color: rgb(25, 120, 204);
+    /* border: 1px solid red; */
+}
 /* ============================== */
 
 * {
