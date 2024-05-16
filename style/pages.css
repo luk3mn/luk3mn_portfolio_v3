@@ -205,27 +205,20 @@ section > .section__body > .h4 {
     font-size: var(--step-1);
 }
 
-.learning__item .skill__model {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    
+.learning__item > .skill__model {
     position: fixed;
     top: 0;
     left: 0;
+    right: 0;
+    padding: 0 20%;
     height: 100vh;
-    width: 100vw;
     background-color: rgba(0,0,0,0.9);
-    /* bottom: 0; */
-    /* width: 100%; */
-    /* border: 1px solid red; */
-    /* display: none; */
 }
 
-.learning__item .skill__model > div {
-    /* width: 100%; */
-    max-width: 800px;
+.learning__item > .skill__model > div {
+
+    position: relative;
+    top: 30%;
     width: 100%;
     padding: 1rem;
     border: .15rem solid var(--slight-white-color);
@@ -233,22 +226,18 @@ section > .section__body > .h4 {
     background-color: var(--color-sherbet-fade);
 }
 
-.learning__item .skill__model > div > i {
+.learning__item > .skill__model > div > i {
     float: right;
     cursor: pointer;
 }
 
-.learning__item .skill__model p {
-    /* border: 1px solid red; */
-    /* margin: auto; */
+.learning__item > .skill__model p {
     margin-top: 2rem;
     text-align: justify;
 }
 
 .hidden {
-    /* display: none; */
-    background-color: rgb(25, 120, 204);
-    /* border: 1px solid red; */
+    display: none;
 }
 /* ============================== */
 

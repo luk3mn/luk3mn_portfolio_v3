@@ -12,6 +12,8 @@
     <link rel="stylesheet" href="style/pages.css">
     <link rel="stylesheet" href="style/responsive-page.css">
     <link rel="stylesheet" href="style/components.css">
+    <script src="https://kit.fontawesome.com/01edd83a56.js" crossorigin="anonymous"></script>
+    <script src="js/CardCode.js" defer></script>
 </head>
 
 <body>
@@ -87,11 +89,6 @@
                                         I'd rather work on backend applications I can explore topic like Artificial Intelligence, 
                                         Docker, Data Science, RESTful, AWS and so on.
                                     </p>
-                                    <!-- <p>My main focus is on practicing with projects that allow me to explore the
-                                        subjects I've been studying and enhance my <a href="/learning">learning</a>. I'm
-                                        particularly interested in back-end programming, and I'm exploring topics such
-                                        as Artificial Intelligence, Docker, Data Science, AWS, RESTful APIs, and both
-                                        relational and non-relational databases.</p> -->
                                 </div>
                             </div>
                         </div>
@@ -118,7 +115,46 @@
                 <h2 class="h4">My Programming Time</h2>
 
                 <ul class="component__list">
-                    <li class="card__list">
+
+                    <card-code
+                        image="https://images.unsplash.com/photo-1614107151491-6876eecbff89?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                        title="LangWay"
+                        time="May 2024"
+                        size="2"
+                        name0="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"
+                        name1="https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white"
+                        deploy-name=" | Deploy"
+                        deploy="https://langway.vercel.app/swagger/"
+                        github="https://github.com/luk3mn/lang_way"
+                        doc="https://github.com/luk3mn/lang_way/blob/main/README.md"
+                    ></card-code>
+
+                    <card-code
+                        image="https://images.unsplash.com/photo-1532354058425-ba7ccc7e4a24?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                        time="December 2023"
+                        title="Spotify Profile"
+                        size="2"
+                        name0="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"
+                        name1="https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white"
+                        github="https://github.com/luk3mn/spotify-profile/"
+                        deploy-name=" | Deploy"
+                        deploy="https://spotify-profile-lmqe.onrender.com/"
+                        doc="https://github.com/luk3mn/spotify-profile/blob/main/README.md"
+                    ></card-code>
+
+                    <card-code
+                        image="https://plus.unsplash.com/premium_photo-1684407617372-106ebb96091e?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                        time="Abril 2024"
+                        title="Pass.in"
+                        size="3"
+                        name0="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white"
+                        name1="https://img.shields.io/badge/Spring-6DB33F?style=for-the-badge&logo=spring&logoColor=white"
+                        name2="https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white"
+                        github="https://github.com/luk3mn/passin_nlw_unite"
+                        doc="https://github.com/luk3mn/passin_nlw_unite/blob/main/README.md"
+                    ></card-code>
+
+                    <!-- <li class="card__list">
                         <div class="code__image">
                             <img src="https://images.unsplash.com/photo-1532354058425-ba7ccc7e4a24?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="">
                         </div>
@@ -127,7 +163,6 @@
                             <span class="underline"></span>
                         </p>
                         <h3 class="[ h5 ]">Spotify Profile</h3>
-                        <!-- <p>Short description</p> -->
                         <div class="stack__list">
                             <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="">
                             <img src="https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white" alt="">
@@ -144,190 +179,14 @@
                                 <i class="fa-solid fa-arrow-right"></i>
                             </div>
                         </footer>
-                    </li>
-
-
-                    <li class="card__list">
-                        <div class="code__image">
-                            <img src="https://plus.unsplash.com/premium_photo-1684407617372-106ebb96091e?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="">
-                        </div>
-                        <p class="timeline">
-                            <time>6th December 2023</time>
-                            <span class="underline"></span>
-                        </p>
-                        <h3 class="[ h5 ]">Pass.in</h3>
-                        <div class="stack__list">
-                            <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" alt="">
-                            <img src="https://img.shields.io/badge/Spring-6DB33F?style=for-the-badge&logo=spring&logoColor=white" alt="">
-                            <img src="https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white" alt="">
-                            <!-- <img src="https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white" alt=""> -->
-                        </div>
-                        <footer>
-                            <div>
-                                <a href="#Github">Code</a>
-                                <span>|</span>
-                                <a href="#Deploy-link">Deploy</a>
-                            </div>
-                            <div class="hr"></div>
-                            <div class="read__more">
-                                <a rel="external" href="/coding/backend/">Read More</a>
-                                <i class="fa-solid fa-arrow-right"></i>
-                            </div>
-                        </footer>
-                    </li>
-
-                    <li class="card__list">
-                        <div class="code__image">
-                            <img src="https://plus.unsplash.com/premium_photo-1684407617372-106ebb96091e?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="">
-                        </div>
-                        <p class="timeline">
-                            <time>6th December 2023</time>
-                            <span class="underline"></span>
-                        </p>
-                        <h3 class="[ h5 ]">Pass.in</h3>
-                        <div class="stack__list">
-                            <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" alt="">
-                            <img src="https://img.shields.io/badge/Spring-6DB33F?style=for-the-badge&logo=spring&logoColor=white" alt="">
-                            <img src="https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white" alt="">
-                            <!-- <img src="https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white" alt=""> -->
-                        </div>
-                        <footer>
-                            <div>
-                                <a href="#Github">Code</a>
-                                <span>|</span>
-                                <a href="#Deploy-link">Deploy</a>
-                            </div>
-                            <div class="hr"></div>
-                            <div class="read__more">
-                                <a rel="external" href="/coding/backend/">Read More</a>
-                                <i class="fa-solid fa-arrow-right"></i>
-                            </div>
-                        </footer>
-                    </li>
-
-                    <li class="card__list">
-                        <div class="code__image">
-                            <img src="https://plus.unsplash.com/premium_photo-1684407617372-106ebb96091e?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="">
-                        </div>
-                        <p class="timeline">
-                            <time>6th December 2023</time>
-                            <span class="underline"></span>
-                        </p>
-                        <h3 class="[ h5 ]">Pass.in</h3>
-                        <div class="stack__list">
-                            <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" alt="">
-                            <img src="https://img.shields.io/badge/Spring-6DB33F?style=for-the-badge&logo=spring&logoColor=white" alt="">
-                            <img src="https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white" alt="">
-                            <!-- <img src="https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white" alt=""> -->
-                        </div>
-                        <footer>
-                            <div>
-                                <a href="#Github">Code</a>
-                                <span>|</span>
-                                <a href="#Deploy-link">Deploy</a>
-                            </div>
-                            <div class="hr"></div>
-                            <div class="read__more">
-                                <a rel="external" href="/coding/backend/">Read More</a>
-                                <i class="fa-solid fa-arrow-right"></i>
-                            </div>
-                        </footer>
-                    </li>
-
-                    <li class="card__list">
-                        <div class="code__image">
-                            <img src="https://plus.unsplash.com/premium_photo-1684407617372-106ebb96091e?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="">
-                        </div>
-                        <p class="timeline">
-                            <time>6th December 2023</time>
-                            <span class="underline"></span>
-                        </p>
-                        <h3 class="[ h5 ]">Pass.in</h3>
-                        <div class="stack__list">
-                            <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" alt="">
-                            <img src="https://img.shields.io/badge/Spring-6DB33F?style=for-the-badge&logo=spring&logoColor=white" alt="">
-                            <img src="https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white" alt="">
-                            <!-- <img src="https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white" alt=""> -->
-                        </div>
-                        <footer>
-                            <div>
-                                <a href="#Github">Code</a>
-                                <span>|</span>
-                                <a href="#Deploy-link">Deploy</a>
-                            </div>
-                            <div class="hr"></div>
-                            <div class="read__more">
-                                <a rel="external" href="/coding/backend/">Read More</a>
-                                <i class="fa-solid fa-arrow-right"></i>
-                            </div>
-                        </footer>
-                    </li>
-
-                    <li class="card__list">
-                        <div class="code__image">
-                            <img src="https://plus.unsplash.com/premium_photo-1684407617372-106ebb96091e?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="">
-                        </div>
-                        <p class="timeline">
-                            <time>6th December 2023</time>
-                            <span class="underline"></span>
-                        </p>
-                        <h3 class="[ h5 ]">Pass.in</h3>
-                        <div class="stack__list">
-                            <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" alt="">
-                            <img src="https://img.shields.io/badge/Spring-6DB33F?style=for-the-badge&logo=spring&logoColor=white" alt="">
-                            <img src="https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white" alt="">
-                            <!-- <img src="https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white" alt=""> -->
-                        </div>
-                        <footer>
-                            <div>
-                                <a href="#Github">Code</a>
-                                <span>|</span>
-                                <a href="#Deploy-link">Deploy</a>
-                            </div>
-                            <div class="hr"></div>
-                            <div class="read__more">
-                                <a rel="external" href="/coding/backend/">Read More</a>
-                                <i class="fa-solid fa-arrow-right"></i>
-                            </div>
-                        </footer>
-                    </li>
-
-                    <li class="card__list">
-                        <div class="code__image">
-                            <img src="https://plus.unsplash.com/premium_photo-1684407617372-106ebb96091e?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="">
-                        </div>
-                        <p class="timeline">
-                            <time>6th December 2023</time>
-                            <span class="underline"></span>
-                        </p>
-                        <h3 class="[ h5 ]">Pass.in</h3>
-                        <div class="stack__list">
-                            <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" alt="">
-                            <img src="https://img.shields.io/badge/Spring-6DB33F?style=for-the-badge&logo=spring&logoColor=white" alt="">
-                            <img src="https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white" alt="">
-                            <!-- <img src="https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white" alt=""> -->
-                        </div>
-                        <footer>
-                            <div>
-                                <a href="#Github">Code</a>
-                                <span>|</span>
-                                <a href="#Deploy-link">Deploy</a>
-                            </div>
-                            <div class="hr"></div>
-                            <div class="read__more">
-                                <a rel="external" href="/coding/backend/">Read More</a>
-                                <i class="fa-solid fa-arrow-right"></i>
-                            </div>
-                        </footer>
-                    </li>
+                    </li> -->
                     
                 </ul>
             </div>
         </section>
     </div>
-    <script src="https://kit.fontawesome.com/01edd83a56.js" crossorigin="anonymous"></script>
-    <script src="https://code.jquery.com/jquery-2.2.4.min.js"
-        integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+    <script src=""></script>
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
 </body>
 
 </html>
