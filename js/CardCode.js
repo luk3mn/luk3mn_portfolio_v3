@@ -104,9 +104,9 @@ class CardCode extends HTMLElement {
 
         .card__list > .code__image {
             overflow: hidden;
-            border-radius: .5rem;
             width: 100%;
-
+            height: 235px;
+            border-radius: .8rem;
         }
 
         .card__list > .code__image > img {
