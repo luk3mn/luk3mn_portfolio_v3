@@ -99,7 +99,7 @@ class CardCode extends HTMLElement {
             margin: 0 1rem;
             margin-bottom: 4rem;
             width: 100%;
-            max-width: 400px;
+            max-width: 270px;
         }
 
         .card__list > .code__image {
