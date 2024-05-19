@@ -29,17 +29,27 @@ class CardStack extends HTMLElement {
         const genericDiv = document.createElement("div");
         skillModel.appendChild(genericDiv);
 
-        const toggleSkillOff = document.createElement("img")
-        toggleSkillOff.setAttribute("src", "img/x-solid.svg");
-        // <i class="fa-solid fa-plus"></i>
+        const barHeader = document.createElement("div");
+        barHeader.setAttribute("class", "bar__header")
+        genericDiv.appendChild(barHeader);
+
+        const toggleSkillOff = document.createElement("button")
         toggleSkillOff.setAttribute("id", "toggle-skill-off")
+
+        barHeader.appendChild(toggleSkillOff).textContent="X"
+
+
+        const buttons = [];
+        for (let index = 0; index < 2; index++) {
+            buttons.push(document.createElement("button"));
+            barHeader.appendChild(buttons[index]).textContent='X'
+        }
         
         const detail1 = document.createElement("p");
         detail1.textContent = this.getAttribute("detail-1");
         const detail2 = document.createElement("p");
         detail2.textContent = this.getAttribute("detail-2");
 
-        genericDiv.appendChild(toggleSkillOff).textContent="-"
         genericDiv.appendChild(detail1); 
         genericDiv.appendChild(detail2); 
 
@@ -102,27 +112,58 @@ class CardStack extends HTMLElement {
                 top: 0;
                 left: 0;
                 right: 0;
+                bottom: 0;
                 padding: 0 20%;
-                height: 100vh;
                 background-color: rgba(0,0,0,0.9);
             }
             
             .learning__item > .skill__model > div {
             
                 position: relative;
-                top: 30%;
+                top: 22%;
                 width: 100%;
-                padding: 1rem;
+                border-radius: 2rem;
+                overflow: hidden;
                 border: .15rem solid var(--slight-white-color);
                 box-shadow: .4rem .4rem var(--slight-white-color);
                 background-color: var(--color-sherbet-fade);
             }
+
+            .learning__item > .skill__model > div > p {
+                padding: 0 1rem;
+                padding-bottom: .5rem;
+            }
             
-            .learning__item > .skill__model > div > img {
-                float: right;
+            .learning__item > .skill__model > div > .bar__header {
+                display: flex;
+                align-items: center;
+                border-bottom: 2px solid var(--slight-white-color);
+                padding: .4rem .6rem;
+            }
+            
+            .learning__item > .skill__model > div > .bar__header > button {
+                border-radius: 1rem;
+                height: 20px; */
+                padding: .1rem .3rem;
+                margin: .2rem;
+                border: none;
+            }
+            
+            .bar__header > button:nth-child(1) {
+                background-color: rgb(170, 46, 46);
+                font-weight: 700;
                 cursor: pointer;
-                width: var(--step-1);
-                margin-right: .2rem;
+                color: var(--slight-white-color);
+            }
+            
+            .bar__header > button:nth-child(2) {
+                background-color: rgb(216, 170, 42);
+                color: rgb(216, 170, 42);
+            }
+            
+            .bar__header > button:nth-child(3) {
+                background-color: rgb(30, 128, 27);
+                color: rgb(30, 128, 27);
             }
             
             .learning__item > .skill__model p {
