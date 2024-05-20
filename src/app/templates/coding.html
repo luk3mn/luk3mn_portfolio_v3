@@ -1,0 +1,90 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<!-- <section> -->
+    <div class="section__header">
+        <div class="[ wrapper wrapper-sm ] [ pad-before ]">
+            <header class="[ Intro ] [ pad-around ]">
+                <div class="[ Intro__inner ] [ inner-wrapper ] [ sf-flow ]">
+                    <div class="[ Intro__copy ]">
+                        <h1 class="[ h3 ]">Coding...</h1>
+                        <div class="[ h6 ]">
+                            <p>
+                                I've been working really hard lately, trying to learn and practice at the same
+                                time, cause I think that the best way for me to really understand and absorb new
+                                concepts is by immersing myself in hands-on projects.
+                            </p>
+                            <p>
+                                I'd rather work on backend applications I can explore topic like Artificial Intelligence, 
+                                Docker, Data Science, RESTful, AWS and so on.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                    role="decorative" aria-hidden="true" viewBox="0 0 133.9 97.5" overflow="visible"
+                    class="Intro__svg">
+                    <defs>
+                        <pattern x="-257.8" y="-219" width="9" height="9" patternUnits="userSpaceOnUse"
+                            id="dot-pattern" viewBox="0 -8 8 8" overflow="visible">
+                            <rect y="-8" width="8" height="8" fill="none"></rect>
+                            <circle cx="4.3" cy="-4" r=".7" fill="#fff" stroke="#fff"
+                                stroke-miterlimit="10"></circle>
+                        </pattern>
+                    </defs>
+                    <pattern id="SVGID_1_" xlink:href="#dot-pattern"
+                        patternTransform="translate(-1.3637 4.2113)"></pattern>
+                    <rect width="133.9" height="90" fill="url(#SVGID_1_)"></rect>
+                </svg>
+            </header>
+        </div>
+    </div>
+    
+    <div class="section__body">
+        <h2 class="h4">My Programming Time</h2>
+
+        <ul class="component__list">
+
+            <card-code
+                image="https://images.unsplash.com/photo-1614107151491-6876eecbff89?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                title="LangWay"
+                time="May 2024"
+                size="2"
+                name0="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"
+                name1="https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white"
+                deploy-name=" | Deploy"
+                deploy="https://langway.vercel.app/swagger/"
+                github="https://github.com/luk3mn/lang_way"
+                doc="https://github.com/luk3mn/lang_way/blob/main/README.md"
+            ></card-code>
+
+            <card-code
+                image="https://images.unsplash.com/photo-1532354058425-ba7ccc7e4a24?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                time="December 2023"
+                title="Spotify Profile"
+                size="3"
+                name0="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"
+                name1="https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white"
+                name2="https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white"
+                github="https://github.com/luk3mn/spotify-profile/"
+                deploy-name=" | Deploy"
+                deploy="https://spotify-profile-lmqe.onrender.com/"
+                doc="https://github.com/luk3mn/spotify-profile/blob/main/README.md"
+            ></card-code>
+
+            <card-code
+                image="https://plus.unsplash.com/premium_photo-1684407617372-106ebb96091e?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                time="Abril 2024"
+                title="Pass.in"
+                size="3"
+                name0="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white"
+                name1="https://img.shields.io/badge/Spring-6DB33F?style=for-the-badge&logo=spring&logoColor=white"
+                name2="https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white"
+                github="https://github.com/luk3mn/passin_nlw_unite"
+                doc="https://github.com/luk3mn/passin_nlw_unite/blob/main/README.md"
+            ></card-code>
+            
+        </ul>
+    </div>
+<!-- </section> -->
+{% endblock %}

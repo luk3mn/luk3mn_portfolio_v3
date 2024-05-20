@@ -3,17 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+    <link rel="shortcut icon" href="{{ url_for('static', filename='img/favicon.png') }}" type="image/x-icon">
     <title>Luke</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@master/devicon.min.css">
-    <link rel="stylesheet" href="style/root.css">
-    <link rel="stylesheet" href="style/main.css">
-    <link rel="stylesheet" href="style/responsive.css">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/root.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/responsive.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='fonts/noyhGeometric/stylesheet.css') }}">
 </head>
 <body>
     <div class="container">
         <section>
-            <img src="img/soft.png" alt="">
+            <img src="{{ url_for('static', filename='img/soft.png') }}" alt="">
         </section>
         <aside>
             <div class="page__header">
@@ -33,29 +34,29 @@
                     <div class="nav">
                         <div id="line"></div>
                         <ul>
-                            <a href="coding.html">
+                            <a href="/coding">
                                 <i class="fa-solid fa-code-compare"></i>
                                 <li>coding</li>
                             </a>
-                            <a href="learning.html">
+                            <a href="/learning">
                                 <i class="fa-solid fa-code"></i>
                                 <li>learning</li>
                             </a>
-                            <a href="#">
+                            <!-- <a href="/career">
                                 <i class="fa-solid fa-graduation-cap"></i>
                                 <li>career</li>
-                            </a>
-                            <a href="#">
+                            </a> -->
+                            <!-- <a href="reward">
                                 <i class="fa-solid fa-award"></i>
                                 <li>reward</li>
-                            </a>
+                            </a> -->
                         </ul>
                     </div>
     
                     <div class="toggle-button">
-                        <div class="toggle__mode">
+                        <!-- <div class="toggle__mode">
                             <i class="fa-solid fa-toggle-on"></i>
-                        </div>
+                        </div> -->
         
                         <div class="toggle__language">
                             <i class="fa-solid fa-language"></i>
@@ -65,7 +66,7 @@
 
             </div>
             <div class="about">
-                <h1>I like <span><a href="/coding.html">coding</a></span> & <span><a href="/learning.html">learning</a></span> about technologies & disruptive innovations to empower my <span><a href="/career">career</a></span>. I also like anime, manga & guitar to fill my free time.</h1>
+                <h1>I like <span><a href="/coding">coding</a></span> & <span><a href="/learning">learning</a></span> about technologies & disruptive innovations to empower my <span><a href="/career">career</a></span>. I also like anime, manga & guitar to fill my free time.</h1>
             </div>   
         </aside>
     </div>

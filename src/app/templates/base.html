@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="{{ url_for('static', filename='img/favicon.png') }}" type="image/x-icon">
+    <title>Luke</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@master/devicon.min.css">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/root.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/pages.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/responsive-page.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='fonts/noyhGeometric/stylesheet.css') }}">
+
+    <script src="https://kit.fontawesome.com/01edd83a56.js" crossorigin="anonymous"></script>
+    <script src="{{ url_for('static', filename='js/CardCode.js') }}" defer></script>
+    <script src="{{ url_for('static', filename='js/CardStack.js') }}" defer></script>
+</head>
+
+<body>
+    <div class="container">
+        <header class="page__header">
+
+            <div class="icon">
+                <div class="box__icon">
+                    <a href="/">Lucas</a>
+                    <div class="social">
+                        <a href="https://github.com/luk3mn" target="_blank"><i
+                                class="fa-brands fa-github fa-beat"></i></a>
+                        <a href="https://www.linkedin.com/in/lucasmaues/" target="_blank"><i
+                                class="fa-brands fa-linkedin fa-beat"></i></a>
+                        <a href="https://mail.google.com/mail/u/0/#inbox" target="_blank"><i
+                                class="fa-brands fa-google fa-beat"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="table__nav">
+
+                <div class="nav">
+                    <div id="line"></div>
+                    <ul>
+                        <a href="/coding">
+                            <i class="fa-solid fa-code-compare"></i>
+                            <li>coding</li>
+                        </a>
+                        <a href="/learning">
+                            <i class="fa-solid fa-code"></i>
+                            <li>learning</li>
+                        </a>
+                        <!-- <a href="/career">
+                            <i class="fa-solid fa-graduation-cap"></i>
+                            <li>career</li>
+                        </a> -->
+                        <!-- <a href="/reward">
+                            <i class="fa-solid fa-award"></i>
+                            <li>reward</li>
+                        </a> -->
+                    </ul>
+                </div>
+
+                <div class="toggle-button">
+                    <!-- <div class="toggle__mode">
+                        <i class="fa-solid fa-toggle-on"></i>
+                    </div> -->
+
+                    <div class="toggle__language">
+                        <i class="fa-solid fa-language"></i>
+                    </div>
+                </div>
+
+            </div>
+        </header>
+
+        <section>
+            {% block content %} {% endblock %}
+        </section>
+    </div>
+    <script src=""></script>
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+</body>
+
+</html>
