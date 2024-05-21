@@ -19,7 +19,7 @@ class CardStack extends HTMLElement {
         div.appendChild(stack).textContent = this.getAttribute("stack-name");
 
         const toggleSkillOn = document.createElement("img")
-        toggleSkillOn.setAttribute("src", "img/plus-solid.svg");
+        toggleSkillOn.setAttribute("src", "/static/img/plus-solid.svg");
         toggleSkillOn.setAttribute("id", "toggle-skill-on")
         
 

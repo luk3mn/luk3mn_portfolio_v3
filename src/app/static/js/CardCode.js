@@ -74,7 +74,7 @@ class CardCode extends HTMLElement {
         external.setAttribute("target","_blank")
         const externalIcon = document.createElement("img");
         readMore.appendChild(external).innerHTML="Read More";
-        readMore.appendChild(externalIcon).setAttribute("src", "img/arrow-right.svg");
+        readMore.appendChild(externalIcon).setAttribute("src", "/static/img/arrow-right.svg");
 
 
 
@@ -105,7 +105,7 @@ class CardCode extends HTMLElement {
         .card__list > .code__image {
             overflow: hidden;
             width: 100%;
-            height: 235px;
+            height: 170px;
             border-radius: .8rem;
         }
 

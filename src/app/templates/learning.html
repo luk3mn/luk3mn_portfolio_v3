@@ -1,42 +1,21 @@
 {% extends 'base.html' %}
 
+{% block header %}
+<div class="[ Intro__copy ]">
+    <h1 class="[ h3 ]">Learning...</h1>
+    <div class="[ h6 ]">
+        <p>
+            Everything I've learned so far has been a stepping stone towards achieving success in my career. I continually seek opportunities to reinforce my knowledge through practical application, ensuring that my skills are both robust and up-to-date. 
+        </p>
+        <p>
+            Over the years, I've learned a great deal, primarily focusing on programming. My goal is to become the best developer I can be. I enjoy using my study time to explore new concepts and relate them to my programming skills, continuously enhancing my abilities.
+        </p>
+    </div>
+</div>
+{% endblock %}
+
 {% block content %}
 <!-- <section> -->
-    <div class="section__header">
-        <div class="[ wrapper wrapper-sm ] [ pad-before ]">
-            <header class="[ Intro ] [ pad-around ]">
-                <div class="[ Intro__inner ] [ inner-wrapper ] [ sf-flow ]">
-                    <div class="[ Intro__copy ]">
-                        <h1 class="[ h3 ]">Learning...</h1>
-                        <div class="[ h6 ]">
-                            <p>
-                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptates numquam quam, esse praesentium obcaecati velit deserunt vel repellat consequuntur et
-                            </p>
-                            <p>
-                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Labore vitae quo facere debitis commodi recusandae. Error neque placeat veritatis ab, et quis minus atque sed, eius labore cum reprehenderit
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-                    role="decorative" aria-hidden="true" viewBox="0 0 133.9 97.5" overflow="visible"
-                    class="Intro__svg">
-                    <defs>
-                        <pattern x="-257.8" y="-219" width="9" height="9" patternUnits="userSpaceOnUse"
-                            id="dot-pattern" viewBox="0 -8 8 8" overflow="visible">
-                            <rect y="-8" width="8" height="8" fill="none"></rect>
-                            <circle cx="4.3" cy="-4" r=".7" fill="#fff" stroke="#fff"
-                                stroke-miterlimit="10"></circle>
-                        </pattern>
-                    </defs>
-                    <pattern id="SVGID_1_" xlink:href="#dot-pattern"
-                        patternTransform="translate(-1.3637 4.2113)"></pattern>
-                    <rect width="133.9" height="90" fill="url(#SVGID_1_)"></rect>
-                </svg>
-            </header>
-        </div>
-    </div>
-    
     <div class="section__body">
         <h2 class="h4">What I've been learning this far</h2>
 
@@ -46,29 +25,30 @@
                 stack-name="Java"
                 stack-icon="devicon-java-plain"
                 detail-1="
-                    I started my learning Java journey while in college, about 2020, focusing primarily on JDBC 
-                    connections and Object-Oriented Programming (OOP) with UML implementation, 
-                    exploring numerous use cases. 
+                    During my college years around 2020, I embarked on my Java learning journey, where I delved into JDBC connections and Object-Oriented 
+                    Programming (OOP) with UML implementation. These studies exposed me to a variety of use cases, broadening my understanding of Java's 
+                    applications.
                 "
                 detail-2="
-                    Currently, my focus has shifted towards mastering the Spring Boot ecosystem, 
-                    particularly JPA and Hibernate, to develop APIs based on RESTful principles. 
-                    My goal is to attain a solid foundation in programming, enabling me to integrate 
-                    seamlessly with other subjects such as AI, Docker, AWS, and beyond."
+                    Presently, my focus has transitioned towards mastering the Spring Boot ecosystem, with a particular emphasis on JPA and Hibernate. 
+                    This shift aims to equip me with the skills needed to develop APIs following RESTful principles. By building a solid programming 
+                    foundation, I aspire to seamlessly integrate with other technologies such as AI, Docker, and AWS, thereby expanding my capabilities 
+                    n the field.
+                "
             ></card-stack>
 
             <card-stack
                 stack-name="Python"
                 stack-icon="devicon-python-plain"
                 detail-1="
-                    I started learning at first time at the end of college, at the end of 2022. In that 
-                    occasion, I had to work on my final project about Data and Machine Learning algoritm 
-                    so I could build predictive models in order to generate a insight about a dataset. 
+                    I embarked on my learning journey towards the end of college in late 2022. This initiation was driven by the necessity to work on my final 
+                    project focusing on Data and Machine Learning algorithms. The project required me to develop predictive models to derive insights from a 
+                    ataset, leading me to delve into Python for building these models. Subsequently, my exploration extended to web programming frameworks like 
+                    Django and Flask to construct web applications.
                 "
                 detail-2="
-                    In that case, I had to learn Python to working on these models, but I ended up
-                    studying some web proramming framework later, suck Django and Flask, in order to
-                    build Web Applications.
+                    This early exposure not only honed my skills in Python but also introduced me to the realm of web development, enhancing my proficiency in 
+                    frameworks crucial for building robust applications.
                 "
             ></card-stack>
 
@@ -76,15 +56,12 @@
                 stack-name="AWS"
                 stack-icon="devicon-amazonwebservices-plain-wordmark"
                 detail-1="
-                    My first contact with Amazon Web Service was in 2023, where I start learning some
-                    basic sevices, such as EC2, S3 and RDS, but later that year start learning at Escola
-                    da Nuvem, where I was able to spend several times in hands-on labs and learing so many
-                     useful services.
+                    My initial exposure to Amazon Web Services was in 2023 when I began learning basic services such as EC2, S3, and RDS. Later that year, 
+                    I enrolled in Escola da Nuvem, where I had the opportunity to immerse myself in hands-on labs and explore numerous valuable services. 
                 "
                 detail-2="
-                    I've conquered the AWS Certified Cloud Practitior, and now I'm studying to go foward and
-                    level up my cloud skills so can can use along with my proramming project, like Python
-                    and Java.
+                    I successfully achieved the AWS Certified Cloud Practitioner certification, and I am currently advancing my cloud skills to integrate them 
+                    into my programming projects, particularly with Python and Java.
                 "
             ></card-stack>
 
@@ -103,10 +80,11 @@
                 stack-name="Flask"
                 stack-icon="devicon-flask-plain"
                 detail-1="
-                    
+                    In early 2022, I ventured into Flask to address the need for a simple web server to render one of my projects. 
                 "
                 detail-2="
-                    
+                    Since then, I have been exploring ways to leverage Flask to construct RESTful APIs. Additionally, I have successfully integrated Flask with 
+                    Docker, AWS, and AI APIs, enhancing my project's capabilities and scalability.
                 "
             ></card-stack>
 
@@ -114,10 +92,15 @@
                 stack-name="Spring Boot"
                 stack-icon="devicon-spring-plain"
                 detail-1="
-                    
+                    I have foundational experience in Java from my university studies, which provided me with a solid understanding of the language and its applications. 
+                    My journey into backend web development began when I discovered Spring Boot at a Java event in late 2023. Since then, I have dedicated myself to mastering 
+                    backend technologies, focusing on areas such as REST API development, Hibernate, JPA, and related frameworks. I am eager to continue expanding my knowledge 
+                    and skills in this domain, aiming to create robust and efficient web applications.
                 "
                 detail-2="
-                    
+                    I have been studying diligently to deepen my knowledge and gain independence in this stack. My goal is to leverage these skills in a future role as a 
+                    programmer, where I can also utilize Docker and AWS. Moreover, I aim to integrate Artificial Intelligence into my applications to enhance their functionality 
+                    and efficiency.
                 "
             ></card-stack>
 
