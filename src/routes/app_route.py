@@ -13,3 +13,7 @@ def coding():
 @app_route_bp.route("/learning", methods=["GET"])
 def learning():
     return render_template("learning.html")
+
+@app_route_bp.route("/reward", methods=["GET"])
+def reward():
+    return render_template("reward.html")

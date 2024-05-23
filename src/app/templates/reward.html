@@ -1,0 +1,57 @@
+{% extends 'base.html' %}
+
+{% block header %}
+<div class="[ Intro__copy ]">
+    <h1 class="[ h3 ]">Reward...</h1>
+    <div class="[ h6 ]">
+        <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corporis est eveniet quisquam itaque vel atque delectus odit assumenda eligendi magni harum omnis voluptate quis tenetur, dolorum optio voluptatem animi nesciunt?
+        </p>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam expedita facere magni molestiae aperiam distinctio nostrum, quae fuga dolore laudantium. Delectus nam nisi exercitationem vitae aliquid cumque iure obcaecati ut!
+        </p>
+    </div>
+</div>
+{% endblock %}
+
+{% block content %}
+<div class="section__body">
+    <h2 class="h4">A little about my reward</h2>
+
+    <ul class="component__list">
+
+        <card-reward
+            image="https://images.credly.com/size/340x340/images/00634f82-b07f-4bbd-a6bb-53de397fc3a6/image.png"
+            title="AWS Certified Cloud Practitioner"
+            size=1
+            name0="https://img.shields.io/static/v1?label=AWS&logo=amazonaws&message=Certification&color=FF9900&style=for-the-badge&colorB=555"
+            time="September 2023"
+            detail-1="Lorem"
+            verify="https://www.credly.com/badges/0b720fb4-6313-40dc-b44b-989171aa90df/linked_in"
+        ></card-reward>
+
+        <card-reward
+            image="https://github.com/luk3mn/currency-converter/raw/main/Badge-Conversor.png"
+            title="Java: Currency Exchenge Challenge"
+            size=2
+            name0="https://img.shields.io/static/v1?label=Alura&&message=Challenge&color=3f6cf2&style=for-the-badge&colorB=555"
+            name1="https://img.shields.io/static/v1?label=Oracle&logo=oracle&message=Challenge&color=F80000&style=for-the-badge&colorB=555"
+            time="April 2024"
+            detail-1="Lorem"
+            verify="https://cursos.alura.com.br/user/lukemn/course/praticando-java-construindo-conversor-moedas/certificate"
+        ></card-reward>
+
+        <card-reward
+            image="https://images.credly.com/size/340x340/images/44e2c252-5d19-4574-9646-005f7225bf53/image.png"
+            title="AWS re/Start Graduate"
+            size=2
+            name0="https://img.shields.io/static/v1?label=AWS&logo=amazonaws&message=re/start&color=FF9900&style=for-the-badge&colorB=555"
+            name1="https://img.shields.io/static/v1?label=Escola da Nuvem&&message=re/start&color=blue&style=for-the-badge&colorB=555"
+            time="September 2023"
+            detail-1="Lorem"
+            verify="https://www.credly.com/earner/earned/badge/cce7eb4f-4a0d-4cf0-a77a-3d263bff12a8"
+        ></card-reward>
+        
+    </ul>
+</div>
+{% endblock %}
