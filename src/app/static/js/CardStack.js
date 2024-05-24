@@ -13,6 +13,7 @@ class CardStack extends HTMLElement {
 
         const div = document.createElement("div");
         const stack = document.createElement("p");
+        stack.setAttribute("class", "notranslate");
         
         const stackIcon = document.createElement("i");
         div.appendChild(stackIcon).setAttribute("class", this.getAttribute("stack-icon"));

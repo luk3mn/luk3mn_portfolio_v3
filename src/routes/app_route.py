@@ -14,6 +14,6 @@ def coding():
 def learning():
     return render_template("learning.html")
 
-@app_route_bp.route("/reward", methods=["GET"])
-def reward():
-    return render_template("reward.html")
+@app_route_bp.route("/achievement", methods=["GET"])
+def achievement():
+    return render_template("achievement.html")

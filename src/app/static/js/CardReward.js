@@ -33,6 +33,7 @@ class CardReward extends HTMLElement {
         const title = document.createElement("h3");
         title.setAttribute("class", "[ h5 ]");
         title.textContent = this.getAttribute("title");
+        title.setAttribute("class", "notranslate")
         
         /**
          * BRAND

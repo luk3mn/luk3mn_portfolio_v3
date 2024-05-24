@@ -59,6 +59,7 @@ class CardCode extends HTMLElement {
         const deploy = document.createElement("a");
         deploy.href = this.getAttribute("deploy");
         deploy.setAttribute("target","_blank")
+        deploy.setAttribute("class", "notranslate")
         
         div.appendChild(code).innerHTML="Code";
         // div.appendChild(span).innerHTML=" | ";
